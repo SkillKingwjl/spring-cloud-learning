@@ -5,11 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/SkillKingwjl/spring-cloud-learning
+          uri: https://github.com/SkillKingwjl/spring-cloud-learning/
           search-paths: config-files
           username: 383188327@qq.com
           password: wei6446320
-        default-label: master
+      label: master
 
 server:
   port: 8888
