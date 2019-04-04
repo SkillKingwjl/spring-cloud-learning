@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-client1/eureka-client1.iml" filepath="$PROJECT_DIR$/eureka-client1/eureka-client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-gateway/service-gateway.iml" filepath="$PROJECT_DIR$/service-gateway/service-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-learning.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-learning.iml" />
