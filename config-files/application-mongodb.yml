@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: mongodb1
+---
+spring:
+  profiles: mongodb1
+  data:
+    mongodb:
+      custom:
+        database: testDB
+        hosts:
+            - 192.168.1.46
+        ports:
+            - 27017
+        username: wjl
+        password: wjl
+        connections-per-host: 100
+        min-connections-per-host: 20
+---        
+spring:
+  profiles: mongodb2
+  data:
+    mongodb:
+      custom:
+        database: testDB1
+        hosts:
+            - 192.168.1.46
+        ports:
+            - 27017
+        username: wjl
+        password: wjl
+        connections-per-host: 100
+        min-connections-per-host: 20
