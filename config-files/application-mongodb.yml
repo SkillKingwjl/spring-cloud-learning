@@ -1,9 +1,3 @@
-spring:
-  profiles:
-    active: mongodb1
----
-spring:
-  profiles: mongodb1
 mongodb:
   database: testDB
   hosts: 192.168.1.46,192.168.1.46,192.168.1.46
