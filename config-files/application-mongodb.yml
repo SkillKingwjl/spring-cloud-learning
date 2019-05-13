@@ -1,19 +1,23 @@
-mongodb:
-  database: testDB
-  hosts: 192.168.1.46,192.168.1.46,192.168.1.46
-  ports: 27017,27017,27017
-  username: wjl
-  password: wjl
-  connections-per-host: 100
-  min-connections-per-host: 20
+spring:
+  profiles:
+    active: mongodb1
+---
+spring:
+  profiles: mongodb1
+  data:
+    mongodb:
+      database: testDB
+      host: 192.168.1.46
+      port: 27017
+      username: wjl
+      password: wjl
 ---        
 spring:
-  profiles: mongodb2
-mongodb:
-  database: testDB
-  hosts: 192.168.1.46,192.168.1.46,192.168.1.46
-  ports: 27017,27017,27017
-  username: wjl
-  password: wjl
-  connections-per-host: 100
-  min-connections-per-host: 20
+  profiles: mongodb1
+  data:
+    mongodb:
+      database: testDB1
+      host: 192.168.1.46
+      port: 27017
+      username: wjl
+      password: wjl
