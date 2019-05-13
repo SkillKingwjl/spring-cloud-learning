@@ -1,8 +1,4 @@
 spring:
-  profiles:
-    active: mongodb1
----
-spring:
   profiles: mongodb1
   data:
     mongodb:
