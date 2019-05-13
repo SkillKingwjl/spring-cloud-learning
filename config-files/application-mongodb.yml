@@ -1,12 +1,12 @@
-mongodb:
-  database: testDB
-  host: 192.168.1.46
-  port: 27017
-  username: wjl
-  password: wjl
 # mongodb:
-#   database: testDB1
+#   database: testDB
 #   host: 192.168.1.46
 #   port: 27017
 #   username: wjl
 #   password: wjl
+mongodb:
+  database: testDB1
+  host: 192.168.1.46
+  port: 27017
+  username: wjl
+  password: wjl
